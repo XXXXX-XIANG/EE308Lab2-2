@@ -1,0 +1,6 @@
+<view class="container">
+    <image class="bgImg" src="/image/Prize.png"></image>
+    <other-widget class="other-widget">
+        <view class='Goto' bindtap='toFirstPage'>Back to home!>></view>
+    </other-widget>
+</view>

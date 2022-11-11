@@ -1,0 +1,16 @@
+<view class="container">
+    <image class="bgImg" src="/image/home.jpg"></image>
+    <image src='/image/start_00.jpg' class='tp'></image>
+    <other-widget class="other-widget">
+        <view class="gotopage_single">
+            <navigator url='/pages/single_game/single_game'>
+                <image src='/image/Single.jpg' class='item1' mode="aspectFit"/>
+            </navigator>
+        </view>
+        <view class="gotopage_group">
+            <navigator url='/pages/group_game/group_game'>
+                <image src='/image/Multiplayer.jpg' class='item2' mode="aspectFit"/>
+            </navigator>
+        </view>
+    </other-widget>  <!-- other widget希望是放在背景图片之上的 -->
+</view>

@@ -1,0 +1,52 @@
+.gotopage {
+  position: fixed;
+}
+
+page {
+  height: 100%;
+}
+
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.tp {
+  width: 280rpx;
+  height: 120rpx;
+  position: fixed;
+  right: 240rpx;
+  bottom: 250rpx;
+}
+.tp_1{
+  width: 450rpx;
+  height: 450rpx;
+  position: fixed;
+  right: 150rpx;
+  bottom: 550rpx;
+}
+
+.other-widget {
+  position: absolute;
+}
+
+.container {
+  width: 100%;
+  height: 1160rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+image {
+  position: absolute;
+  width: 100%;
+  height: 1160rpx;
+}
+
+.up {
+  position: absolute;
+  z-index: 1;
+}

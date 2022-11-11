@@ -1,0 +1,18 @@
+
+<view class="container">
+    <image class="bgImg" src="/image/Home.jpg"></image>
+    <other-widget class="other-widget">
+
+        <image class='bowl' src="/image/bowl.png"></image>
+        <button class='press' bindtap='click'>Click to start!</button>
+        <image class='playDice' src="{{img}}"></image>
+        <image class='img1' src="{{dicelist[0]}}"></image>
+        <image class='img2' src="{{dicelist[1]}}"></image>
+        <image class='img3' src="{{dicelist[2]}}"></image>
+        <image class='img4' src="{{dicelist[3]}}"></image>
+        <image class='img5' src="{{dicelist[4]}}"></image>
+        <image class='img6' src="{{dicelist[5]}}"></image>
+        <view class='rank'>{{rank}}</view>
+        <view class='Goto' bindtap='toFirstPage'>Back to Home Page!>></view>
+    </other-widget>
+</view>

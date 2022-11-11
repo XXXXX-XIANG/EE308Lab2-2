@@ -1,0 +1,17 @@
+<view class="container">
+    <image class="bgImg" src="/image/Home.jpg"></image>
+    <other-widget class="other-widget">
+        <view class="gotopage_create">
+            <navigator url='/pages/create/create'>
+                <image src='https://iconfont.alicdn.com/t/d12ec43a-001d-459f-b810-5753c61481cd.png' class='create'></image>
+                <image class="font_create" src="/image/Create.jpg"></image>
+            </navigator>
+        </view>
+        <view class="gotopage_join">
+            <navigator url='/pages/join/join'>
+                <image src='https://iconfont.alicdn.com/t/d12ec43a-001d-459f-b810-5753c61481cd.png' class='join'></image>
+                <image class="font_join" src="/image/Join.jpg"></image>
+            </navigator>
+        </view>
+    </other-widget>
+</view>

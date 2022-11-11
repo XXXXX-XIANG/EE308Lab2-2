@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+    <image class="bgImg" src="/image/home.jpg"></image>
+    <other-widget class="other-widget">
+        <view class="gotopage">
+            <navigator url='/pages/home/home'>
+                 <image src='/image/start_00.jpg' class='tp_1'></image>
+                 <image src='/image/start_01.jpg' class='tp'></image>
+                <!--<view class='ziti'>多人游戏</view> -->
+            </navigator>
+        </view>
+    </other-widget>  <!-- other widget希望是放在背景图片之上的 -->
+</view>

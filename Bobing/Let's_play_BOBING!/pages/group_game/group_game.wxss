@@ -1,0 +1,94 @@
+/* pages/group_game/group_game.wxss */
+.other-widget{
+    position: absolute;
+}
+page {
+  height: 100%;
+}
+
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.font_create{
+  position: fixed;
+  margin: 0 5%;
+  bottom:720rpx;
+  left: 210rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 280rpx;
+  height: 120rpx;
+  color: var(--redColor);
+  font-size: medium;
+  font-weight: 550;
+}
+
+.create{
+  position: fixed;
+  margin: 0 5%;
+  bottom:490rpx;
+  left: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 500rpx;
+  height: 500rpx;
+}
+
+.font_join{
+  position: fixed;
+  width: 90%;
+  margin: 0 5%;
+  bottom:380rpx;
+  left: 210rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 280rpx;
+  height: 115rpx;
+  color: var(--redColor);
+  font-size:medium;
+  font-weight: 550;
+}
+
+.join{
+  position: fixed;
+  margin: 0 5%;
+  bottom:200rpx;
+  left: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200rpx;
+  width: 500rpx;
+  height: 500rpx;
+}
+
+.container{
+  width: 100%;
+  height: 1200rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+image{
+  position: absolute;
+  width: 100%;
+  height: 1220rpx;
+}
+.up{
+  position: absolute;
+  z-index: 1;
+}

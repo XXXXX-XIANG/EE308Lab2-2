@@ -1,0 +1,6 @@
+<view class="container">
+    <image class="bgImg" src="/image/Rank.png"></image>
+    <other-widget class="other-widget">
+        <navigator class='GotoGift' url='/pages/gift/gift'>Click to view prize>></navigator>
+    </other-widget>
+</view>
